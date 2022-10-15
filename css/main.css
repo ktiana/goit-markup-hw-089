@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/*  ОСНОВНОЕ */
+
 body {
   background-color: #ffffff;
   color: #212121;
@@ -72,7 +72,7 @@ img {
   height: auto;
 }
 
-/* КОНТАКТЫ ФУТЕР */
+
 .contacts-footer {
   margin-top: 8px;
   line-height: 1.71;
@@ -204,7 +204,7 @@ img {
   }
 }
 
-/* ФУТЕР */
+
 .footer {
   padding: 60px 0;
   background-color: #2f303a;
@@ -307,7 +307,7 @@ img {
   display: none;
 }
 
-/* НАВИГАЦИЯ И КОНТАКТЫ */
+
 .navigation {
   z-index: 1;
   background-color: #ffffff;
