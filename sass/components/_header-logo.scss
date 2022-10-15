@@ -1,0 +1,29 @@
+/* ЛОГОТИП ХЕДЕР */
+
+.logo__part {
+    color: $accent-color;
+}
+
+.logo {
+    color: $black-color;
+    font-family: $font-family-secondary;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.17;
+    text-decoration: none;
+    display: flex;
+    padding: 16px 0;
+    width: max-content;
+
+    &--white {
+        
+        color: $white-color;
+        padding: 0;
+
+        @media screen and (max-width: 1199px) {
+            display: flex;
+            justify-content: center;
+            width: auto;      
+        }
+    }
+}
